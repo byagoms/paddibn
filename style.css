@@ -10,41 +10,47 @@ body{
 }
 
 div{
-    width: 400px;
+   border: 2.5px solid black;
+   width: 400px;
     margin-inline: auto;
 }
 
 main{
-    border: 1px solid black;
-    margin-bottom: 10px;
+    padding: 0px;
+    margin: 0px auto;
 }
 
 img{
-    height: 220px;
+    height: 200px;
     width: 200px;
     display: block;
     border: 2px solid black;
-    
 }
 
 a{
-    border: 1px solid black;
+    border: 2px solid black;
+    padding: 16px 25px 18px 20px;
+    color: blue;
 }
 
 .b {
     border: 2px solid black;
     display: inline-block;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-right: 75px;
+    padding-bottom: 60px;
 }
 
 .a{
     border: 2px solid black;
     display: inline-block;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-right: 75px;
+    padding-bottom: 60px;
+    margin-left: -20px;
+    margin-top: -5px;
 }
 
 footer{
-    border: 1px solid black;
+    border: 2px solid black;
+    margin: 10px 20px 30px 40px;
+
 }
